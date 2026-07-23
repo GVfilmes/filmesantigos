@@ -1,0 +1,24 @@
+robots.txt
+
+
+User-agent: *
+Allow: /
+
+# Páginas específicas para não rastrear
+Disallow: /termos.html
+Disallow: /policy.html
+Disallow: /contato.html
+Disallow: /script.js
+Disallow: /style.css
+
+
+
+# Bloquear arquivos sensíveis e de backup
+Disallow: /*.sql$
+Disallow: /*.bak$
+Disallow: /*.log$
+Disallow: /*.zip$
+Disallow: /*.gz$
+
+# Sitemap
+Sitemap: 
